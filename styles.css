@@ -1,58 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 * {
-    font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .container {
-    width: 95vw;
-    height: auto;
-    margin: auto;
-    display: inline-block;
-    border: 1vw dotted mediumvioletred;
-    padding: 4vw 0; 
+  width: 95vw;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+  border: 1vw dotted mediumvioletred;
+  padding: 35vh 0 4vh 0;
 }
 
 .layout {
-    display: block;
-    width: 80vw;
-    margin: auto;
+  display: block;
+  width: 80vw;
+  margin: auto;
 }
 
-.list {
-    position: relative;
-    width: 40vw;
-    display: block;
-    font-size: 4vh;
-    margin-bottom: 50vh;
+.header {
+  font-size: 7vh;
+  width: 58vw;
+  color: mediumvioletred;
+  border: 2vh double mediumvioletred;
+  padding: 2vh;
+  display: block;
+  margin: auto;
+  top: -30vh;
+  position: relative;
+  text-align: center;
 }
 
-.second {
-    margin-left: 82vh;
+.list-first,
+.list-second,
+.list-third {
+  position: relative;
+  width: 40vw;
+  display: block;
+  font-size: 4vh;
+  margin-bottom: 50vh;
+}
+
+.list-second {
+  right: -41vw;
+}
+
+.list-third {
+    margin-bottom: 35vh;
 }
 
 .description {
-    font-size: 4vh;
+  font-size: 4vh;
 }
 
 a {
-    padding: 4vh;
-    width: auto;
-    display: table;
-    text-decoration: none;
-    margin: auto;
-    border-radius: 1vh;
-    background-color: mediumvioletred;
-    color: white;
-    font-size: 3vh;
-    border: 0.5vh solid mediumvioletred;
+  top: -32vh;
+  left: 5vw;
+  position: relative;
+  padding: 4vh;
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 1vh;
+  background-color: mediumvioletred;
+  color: white;
+  font-size: 3vh;
+  border: 0.5vh solid mediumvioletred;
 }
 
 a:hover {
-    background-color: white;
-    color: mediumvioletred;
+  background-color: white;
+  color: mediumvioletred;
 }
 
-.pic {
-    
+.hr-first {
+    top: 100vh;
+    position: absolute;
+    width: 80vw;
+}
+
+.hr-second {
+    top: 170vh;
+    position: absolute;
+    width: 80vw;
+}
+
+.hr-third {
+    top: 235vh;
+    position: absolute;
+    width: 80vw;
+}
+
+.pic__first {
+  background: url("backache.png") no-repeat;
+  height: 57vh;
+  width: 32vw;
+  background-size: contain;
+  position: absolute;
+  top: 38vh;
+  right: 12vw;
+}
+
+.pic__second {
+  background: url("man.jpg") no-repeat;
+  height: 57vh;
+  width: 32vw;
+  background-size: contain;
+  position: absolute;
+  top: 106vh;
+  left: 18vh;
+}
+
+.pic__third {
+  background: url("girl.jpg") no-repeat;
+  height: 57vh;
+  width: 32vw;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  top: 106vh;
+  left: 48vh;
+}
+
+.pic__fourth {
+  background: url("chip.jpg") no-repeat;
+  height: 57vh;
+  width: 32vw;
+  background-size: contain;
+  position: relative;
+  display: inline-block;
+  margin-left: 15vw;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.pic__fifth {
+    background: url("alarm.svg") no-repeat;
+    height: 18vh;
+    width: 10vw;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    top: 188vh;
+    right: 20.5vw;
+}
+
+.pic__sixth {
+    background: url("chair.svg") no-repeat;
+    height: 47vh;
+    width: 25vw;
+    background-size: contain;
+    position: absolute;
+    top: 180vh;
+    right: 13vw;
 }
